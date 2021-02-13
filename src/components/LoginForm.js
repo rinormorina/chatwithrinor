@@ -25,7 +25,7 @@ const LoginForm = () =>{
     return(
         <div className='wrapper'>
             <div className='form'>
-            <h1 className='title'>ChatWithRinor</h1>
+            <h1 className='title'>Chat with me</h1>
             <form onSubmit={handleSubmit}>
                 <input type='text' value={username} className='input' placeholder='Type Username' required onChange={(e)=> setUsername(e.target.value)}></input>
                 <input type='password' value={password} className='input' placeholder='Type Password' required onChange={(e)=> setPassword(e.target.value)}></input>
